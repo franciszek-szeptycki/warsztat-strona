@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-position: bottom;
+    background-color: whitesmoke;
+    font-size: 10px;
+    font-family: Oswald, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;;
+    margin: 0 auto;
+}
+
+/* nawigacja */
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    object-position: right;
+    display: inline-block;
+    font-size: 2.0rem;
+    font-family: Roboto, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 10px 5px;
+    width: 17%;
+    padding: 10px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px rgba(255, 255, 255, 0) solid;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    border-bottom: 3px rgb(95, 95, 95) solid;
+}
+
+a.reservation {
+    margin-left: 65px;
+    border: 3px rgb(95, 95, 95) solid;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+a.reservation:hover {
+    color: whitesmoke;
+    background-color: rgb(95, 95, 95);
+    font-weight: bold;
+}
+
+/* header */
+
+header {
+    height: 40vh;
+    background-image: url(https://libreshot.com/wp-content/uploads/2016/04/car-repair-shop-2-1536x1024.jpg);
+    background-size: cover;
+    background-position: 0% 61%;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+/* main */
+
+main p {
+    font-size: 2rem;
+    margin: 7vh auto;
+    width: 90%;
+    text-align: justify;
+}
+
+section {
+    height: 40vw;
+}
+
+
+div.label {
+    box-sizing: border-box;
+    float: left;
+    height: 33em;
+    width: 33em;
+    margin-right: 0.5em;
+}
+
+div.label + div.label + div.label {
+    margin-right: 0px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 50px;
+}
+
+div.label>div {
+    height: 33em;
+    width: 33em;
+}
+
+.first {
+    background-image: url("foto/licznik.png");
+}
+.second {
+    background-image: url("foto/silnik.png");
+}
+.third {
+    background-image: url("foto/recykling.png");
+}
+
+div.label p {
+    margin: 10px auto;
+    text-align: center;
+}
+
+section div div {
+    background-size: cover;
+    background-position: 50% 20%;
+    overflow: hidden;
+    height: 33em;
+}
